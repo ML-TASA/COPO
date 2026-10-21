@@ -1,0 +1,9 @@
+name: copo
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - -e verl/
+      - -r requirements.txt
